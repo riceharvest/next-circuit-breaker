@@ -1,6 +1,6 @@
 {
   "name": "@opensourceframework/next-circuit-breaker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Circuit breaker pattern implementation for Next.js API routes - Prevent cascading failures by failing fast when downstream services are unavailable",
   "keywords": [
     "next.js",
@@ -50,7 +50,7 @@
     "@types/node": "^22.0.0",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0",
-    "vitest": "^2.0.0"
+    "vitest": "^4.0.18"
   },
   "peerDependencies": {
     "next": ">=12.0.0"
